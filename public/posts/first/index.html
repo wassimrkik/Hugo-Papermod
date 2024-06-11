@@ -13,16 +13,16 @@ Pre-requisites: Minimum specs:
 Docker Installation: First, you need to update the apt package index and install a few packages. These packages will allow apt to use a repository over HTTPS:
 sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common Then, you need to add the GPG key of the official Docker repository to your system:">
 <meta name="author" content="">
-<link rel="canonical" href="//cloudwaves.co/posts/first/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//cloudwaves.co/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//cloudwaves.co/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//cloudwaves.co/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//cloudwaves.co/apple-touch-icon.png">
-<link rel="mask-icon" href="//cloudwaves.co/safari-pinned-tab.svg">
+<link rel="canonical" href="https://wassimrkik.github.io/Hugo-Papermod/posts/first/">
+<link crossorigin="anonymous" href="/Hugo-Papermod/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://wassimrkik.github.io/Hugo-Papermod/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://wassimrkik.github.io/Hugo-Papermod/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://wassimrkik.github.io/Hugo-Papermod/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://wassimrkik.github.io/Hugo-Papermod/apple-touch-icon.png">
+<link rel="mask-icon" href="https://wassimrkik.github.io/Hugo-Papermod/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="//cloudwaves.co/posts/first/">
+<link rel="alternate" hreflang="en" href="https://wassimrkik.github.io/Hugo-Papermod/posts/first/">
 <noscript>
     <style>
         #theme-toggle,
@@ -69,14 +69,14 @@ Pre-requisites: Minimum specs:
 Docker Installation: First, you need to update the apt package index and install a few packages. These packages will allow apt to use a repository over HTTPS:
 sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common Then, you need to add the GPG key of the official Docker repository to your system:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="//cloudwaves.co/posts/first/" />
-<meta property="og:image" content="//cloudwaves.co/test.png" />
+<meta property="og:url" content="https://wassimrkik.github.io/Hugo-Papermod/posts/first/" />
+<meta property="og:image" content="https://wassimrkik.github.io/Hugo-Papermod/test.png" />
 <meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-06-10T16:02:58+02:00" />
 <meta property="article:modified_time" content="2024-06-10T16:02:58+02:00" /><meta property="og:site_name" content="Cloud Waves" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="//cloudwaves.co/test.png" />
+<meta name="twitter:image" content="https://wassimrkik.github.io/Hugo-Papermod/test.png" />
 <meta name="twitter:title" content="Kubernetes Installation On-Prem"/>
 <meta name="twitter:description" content="This has been tested on a virtual environment, will be tested later on the definitive environment.
 Pre-requisites: Minimum specs:
@@ -94,13 +94,13 @@ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agen
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "//cloudwaves.co/posts/"
+      "item": "https://wassimrkik.github.io/Hugo-Papermod/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Kubernetes Installation On-Prem",
-      "item": "//cloudwaves.co/posts/first/"
+      "item": "https://wassimrkik.github.io/Hugo-Papermod/posts/first/"
     }
   ]
 }
@@ -118,18 +118,18 @@ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agen
   "articleBody": "This has been tested on a virtual environment, will be tested later on the definitive environment.\nPre-requisites: Minimum specs:\n2 CPUs 2 GB RAM 50 GB Storage Linux Distro: Ubuntu 20.04 (latest 22.04 present some issues and bugs)\nDocker Installation: First, you need to update the apt package index and install a few packages. These packages will allow apt to use a repository over HTTPS:\nsudo apt-get install \\ apt-transport-https \\ ca-certificates \\ curl \\ gnupg-agent \\ software-properties-common Then, you need to add the GPG key of the official Docker repository to your system:\nsudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - You can verify the fingerprint by using the following command:\nsudo apt-key fingerprint 0EBFCD88 Then, we add the official repo for the Docker installation:\nsudo add-apt-repository \"deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable\" Finally, you can install the Docker engine. The following commands first update the apt package index and then install the latest version of Docker engine and containerd:\nsudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io Check Docker status using this command:\nsudo systemctl status docker The output should look like this\nAdd the user to the Docker group:\nsudo usermod -aG docker $USER After that, you need to re-login so that changes take effect and the user is allowed to use Docker.\nKubernetes Install: The commands shown will be run on any node (server) that will be running Kubernetes.\nYou will start by installing the apt-transport-https package which enables working with HTTP and HTTPS in Ubuntu’s repositories. Also, install curl as it will be necessary for the next steps. Execute the following command:\nsudo apt install apt-transport-https curl Then, add the Kubernetes signing key to both nodes by executing the command:\ncurl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - Next, we add the Kubernetes repository as a package source on both nodes using the following command:\necho \"deb https://apt.kubernetes.io/ kubernetes-xenial main\" \u003e\u003e ~/kubernetes.list sudo mv ~/kubernetes.list /etc/apt/sources.list.d After that, update the nodes:\nsudo apt update Installing Kubernetes Tools:\nsudo apt-get install -y kubelet kubeadm kubectl kubernetes-cni Disabling swap memory:\nsudo swapoff -a This command disables swap memory until the system is rebooted. We have to ensure that it remains off even after reboots. This has to be done on the master and all worker nodes. We can do this by editing the fstab file and commenting out the /swapfile line with a #. Open the file with the nano text editor by entering the following command:\nsudo nano /etc/fstab Inside the file, comment out the swapfile line as shown in the screenshot below:\nIf you do not see the swapfile line, just ignore it. Save and close the file when you are done editing. Follow the same process for both nodes. Now, swap memory settings will remain off, even after your server reboots.\nSetting Unique Hostnames: For easier identification, we are going to set unique hostnames which will be relevant to the node role:\nsudo hostnamectl set-hostname For the master and worker nodes to correctly see bridged traffic, you should ensure net.bridge.bridge-nf-call-iptables is set to 1 in your config. First, ensure the br_netfilter module is loaded. You can confirm this by issuing the command:\nsudo modprobe br_netfilter sudo sysctl net.bridge.bridge-nf-call-iptables=1 Updating the container runtime: We need to update the container runtime that is used by Docker. By default, it uses cgroupfs, we need to change it to systemd. To do so, we create a file under /etc/docker/:\nsudo mkdir /etc/docker cat \u003c",
   "wordCount" : "798",
   "inLanguage": "en",
-  "image": "//cloudwaves.co/test.png","datePublished": "2024-06-10T16:02:58+02:00",
+  "image": "https://wassimrkik.github.io/Hugo-Papermod/test.png","datePublished": "2024-06-10T16:02:58+02:00",
   "dateModified": "2024-06-10T16:02:58+02:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "//cloudwaves.co/posts/first/"
+    "@id": "https://wassimrkik.github.io/Hugo-Papermod/posts/first/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Cloud Waves",
     "logo": {
       "@type": "ImageObject",
-      "url": "//cloudwaves.co/favicon.ico"
+      "url": "https://wassimrkik.github.io/Hugo-Papermod/favicon.ico"
     }
   }
 }
@@ -151,8 +151,8 @@ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agen
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="//cloudwaves.co/" accesskey="h" title="Cloud Waves (Alt + H)">
-                <img src="//cloudwaves.co/test.png" alt="" aria-label="logo"
+            <a href="https://wassimrkik.github.io/Hugo-Papermod/" accesskey="h" title="Cloud Waves (Alt + H)">
+                <img src="https://wassimrkik.github.io/test.png" alt="" aria-label="logo"
                     height="50">Cloud Waves</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -179,7 +179,7 @@ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agen
         </div>
         <ul id="menu">
             <li>
-                <a href="//cloudwaves.co/posts/" title="Posts">
+                <a href="https://wassimrkik.github.io/Hugo-Papermod/posts/" title="Posts">
                     <span>Posts</span>
                 </a>
             </li>
@@ -304,7 +304,7 @@ Run these commands to fix it:</p>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="//cloudwaves.co/">Cloud Waves</a></span> · 
+        <span>&copy; 2024 <a href="https://wassimrkik.github.io/Hugo-Papermod/">Cloud Waves</a></span> · 
 
     <span>
         Powered by
