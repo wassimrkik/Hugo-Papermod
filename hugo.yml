@@ -5,6 +5,7 @@ theme: PaperMod
 
 
 params:
+  canonifyURLs: true
   minification: false
   title: Cloud Waves
   images: ["test.png"]
