@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Cloud Waves</title>
-    <link>https://wassimrkik.github.io/Hugo-Papermod/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Cloud Waves</description>
     <image>
       <title>Cloud Waves</title>
-      <url>https://wassimrkik.github.io/Hugo-Papermod/test.png</url>
-      <link>https://wassimrkik.github.io/Hugo-Papermod/test.png</link>
+      <url>//localhost:1313/logo.png</url>
+      <link>//localhost:1313/logo.png</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2024 16:02:58 +0200</lastBuildDate>
-    <atom:link href="https://wassimrkik.github.io/Hugo-Papermod/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes Installation On-Prem</title>
-      <link>https://wassimrkik.github.io/Hugo-Papermod/posts/first/</link>
+      <link>//localhost:1313/posts/first/</link>
       <pubDate>Mon, 10 Jun 2024 16:02:58 +0200</pubDate>
-      <guid>https://wassimrkik.github.io/Hugo-Papermod/posts/first/</guid>
+      <guid>//localhost:1313/posts/first/</guid>
       <description>This has been tested on a virtual environment, will be tested later on the definitive environment.
 Pre-requisites: Minimum specs:
 2 CPUs 2 GB RAM 50 GB Storage Linux Distro: Ubuntu 20.04 (latest 22.04 present some issues and bugs)

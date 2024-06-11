@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Cloud Waves</title>
-    <link>https://wassimrkik.github.io/Hugo-Papermod/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Cloud Waves</description>
     <image>
       <title>Cloud Waves</title>
-      <url>https://wassimrkik.github.io/Hugo-Papermod/test.png</url>
-      <link>https://wassimrkik.github.io/Hugo-Papermod/test.png</link>
+      <url>//localhost:1313/logo.png</url>
+      <link>//localhost:1313/logo.png</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <atom:link href="https://wassimrkik.github.io/Hugo-Papermod/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
