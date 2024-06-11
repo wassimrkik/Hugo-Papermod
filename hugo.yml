@@ -1,0 +1,37 @@
+baseURL: ""
+languageCode: en-us
+title: Cloud Waves
+theme: PaperMod
+
+
+params:
+  minification: false
+  title: Cloud Waves
+  images: ["test.png"]
+  label: 
+    text: "Cloud Waves"
+    icon: /test.png
+    iconHeight: 50
+  profileMode:
+    # Needs to be explicitly set
+    enabled: true
+    title: Wassim REGAIEG
+    imageUrl: /IMG_7287.jpg
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+  socialIcons:
+  - name: github
+    url: "https://github.com/wassimrkik"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/wassim-regaieg-837578177/"
+  - name: email
+    url: "mailto:wassim.regaieg@cloudwaves.co"
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+
