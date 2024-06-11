@@ -58,7 +58,7 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "./"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
