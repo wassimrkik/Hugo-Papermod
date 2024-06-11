@@ -8,16 +8,16 @@ params:
   canonifyURLs: true
   minification: false
   title: Cloud Waves
-  images: ["test.png"]
+  images: ["/static/test.png"]
   label: 
     text: "Cloud Waves"
-    icon: /test.png
+    icon: /static/test.png
     iconHeight: 50
   profileMode:
     # Needs to be explicitly set
     enabled: true
     title: Wassim REGAIEG
-    imageUrl: /IMG_7287.jpg
+    imageUrl: /static/IMG_7287.jpg
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
   socialIcons:
