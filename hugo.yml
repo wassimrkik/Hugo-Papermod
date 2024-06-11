@@ -11,13 +11,13 @@ params:
   images: ["logo.png"]
   label: 
     text: "Cloud Waves"
-    icon: /logo.png
+    icon: ./logo.png
     iconHeight: 50
   profileMode:
     # Needs to be explicitly set
     enabled: true
     title: Wassim REGAIEG
-    imageUrl: /wassim.jpg
+    imageUrl: ./wassim.jpg
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
   socialIcons:
