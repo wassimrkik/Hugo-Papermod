@@ -40,7 +40,7 @@ menu:
     - identifier: Certifications
       name: Certifications
       url: ./certification/
-      weight: 20
+      weight: 30
     - identifier: "My Resume"
       name: Resume
       url: ./resume/
