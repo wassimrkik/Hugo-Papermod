@@ -1,7 +1,10 @@
 baseURL: ""
 languageCode: en-us
 title: Cloud Waves
-theme: PaperMod
+enableInlineShortcodes: true
+theme: 
+- PaperMod
+- hugo-embed-pdf-shortcode
 
 
 params:
@@ -37,6 +40,10 @@ menu:
     - identifier: Certifications
       name: Certifications
       url: ./certification/
+      weight: 20
+    - identifier: "My Resume"
+      name: Resume
+      url: ./resume/
       weight: 20
 
 
