@@ -20,7 +20,7 @@ params:
     # Needs to be explicitly set
     enabled: true
     title: Wassim REGAIEG
-    imageUrl: ./wassim.jpg
+    imageUrl: ./logo.png
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
   socialIcons:
