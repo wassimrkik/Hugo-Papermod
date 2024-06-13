@@ -3,9 +3,27 @@ title: "My Certifications"
 date: 2024-06-12
 ---
 <style>
-    .image-gallery{display:flex;flex-direction:column;gap:1px;width:100%;height:auto} 
-    .image-row{display:flex;flex-direction:row;flex-wrap:wrap;max-width:100%;justify-content:center;}
-    .certificate-link{max-width:33%}
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Increased gap between rows */
+        width: 100%;
+        height: auto;
+    }
+    .image-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        gap: 10px; /* Added gap between images */
+    }
+    .certificate-link {
+        max-width: 33%;
+    }
+    .certificate-link2 {
+        max-width: 30%;
+    }
 </style>
 <div class="image-gallery">
     <div class="image-row">
@@ -17,10 +35,10 @@ date: 2024-06-12
         </a>
     </div>
     <div class="image-row">
-        <a href="https://www.credly.com/badges/7b13f767-fb6b-4600-b12b-1bf23fe731dc/public_url" class="certificate-link">
+        <a href="https://www.credly.com/badges/7b13f767-fb6b-4600-b12b-1bf23fe731dc/public_url" class="certificate-link2">
             <img src="/vmware_cert_VCPNV19.png">
         </a>
-        <a href="https://www.credly.com/badges/3046c605-a0bc-41e6-b7d1-bb1c53c43f4c/public_url" class="certificate-link">
+        <a href="https://www.credly.com/badges/3046c605-a0bc-41e6-b7d1-bb1c53c43f4c/public_url" class="certificate-link2">
             <img src="/vmware_knowledge_vsphere6.png">
         </a>
     </div>
