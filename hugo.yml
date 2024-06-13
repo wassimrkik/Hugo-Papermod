@@ -10,7 +10,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-      
+
 params:
   canonifyURLs: true
   minification: false
@@ -37,6 +37,10 @@ params:
 
 menu:
   main:
+    - identifier: me
+      name: "About me"
+      url: ./me/
+      weight: 10
     - identifier: Posts
       name: Posts
       url: /posts/
@@ -49,5 +53,12 @@ menu:
       name: Resume
       url: ./resume/
       weight: 20
-
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 50
 
