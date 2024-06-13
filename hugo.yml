@@ -6,7 +6,11 @@ theme:
 - PaperMod
 - hugo-embed-pdf-shortcode
 
-
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
 params:
   canonifyURLs: true
   minification: false
