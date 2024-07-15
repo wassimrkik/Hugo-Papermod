@@ -1,5 +1,6 @@
 ---
 title: "My Resume"
+layout: "resume"
 date: 2024-06-12
 ---
 
