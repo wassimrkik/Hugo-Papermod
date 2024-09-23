@@ -1,83 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cloud Waves</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Cloud Waves</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>Cloud Waves</title>
+      <url>//localhost:1313/logo.png</url>
+      <link>//localhost:1313/logo.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grafana Alerts with SNS</title>
-      <link>/posts/second/</link>
+      <link>//localhost:1313/posts/second/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/second/</guid>
+      <guid>//localhost:1313/posts/second/</guid>
       <description>Pre-requisites: AWS Account: You need access to your AWS account to create SNS topics. Grafana: Grafana should be installed and accessible. Permissions: Ensure that the user setting this up has appropriate permissions for AWS SNS and Grafana.</description>
     </item>
-    
     <item>
       <title>About Me</title>
-      <link>/me/</link>
+      <link>//localhost:1313/me/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/me/</guid>
+      <guid>//localhost:1313/me/</guid>
       <description>Hello! I&#39;m Wassim, a Cloud DevOps Engineer with a passion for leveraging cloud technology to drive innovation and efficiency. Over the years, I’ve gained expertise in AWS and Azure, leading large-scale projects, and applying DevOps best practices to optimize cloud infrastructure. Currently, I’m managing a high-impact machine learning project for a multinational company, ensuring smooth operations and seamless deployments.
 I’ve had the privilege of working across diverse industries and within international teams, honing my technical and communication skills along the way.</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>Get in TouchIf you have any questions or want to connect, feel free to reach out through the options below!
-Phone (Primary): +33 6 99 93 01 10Phone (Secondary): +971 58 517 21 67Email: wassim.regaieg@cloudwaves.coLinkedIn: Wassim Regaieg</description>
+      <guid>//localhost:1313/contact/</guid>
+      <description> Get in Touch If you have any questions or want to connect, feel free to reach out through the options below!
+Phone (Primary): +33 6 99 93 01 10 Phone (Secondary): +971 58 517 2167 Email: wassim.regaieg@cloudwaves.co LinkedIn: Wassim Regaieg </description>
     </item>
-    
     <item>
       <title>My Certifications</title>
-      <link>/certification/</link>
+      <link>//localhost:1313/certification/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/certification/</guid>
-      <description></description>
+      <guid>//localhost:1313/certification/</guid>
+      <description> </description>
     </item>
-    
     <item>
       <title>Kubernetes Installation On-Prem</title>
-      <link>/posts/first/</link>
+      <link>//localhost:1313/posts/first/</link>
       <pubDate>Mon, 10 Jun 2024 16:02:58 +0200</pubDate>
-      
-      <guid>/posts/first/</guid>
+      <guid>//localhost:1313/posts/first/</guid>
       <description>This has been tested on a virtual environment, will be tested later on the definitive environment.
 Pre-requisites: Minimum specs:
 2 CPUs 2 GB RAM 50 GB Storage Linux Distro: Ubuntu 20.04 (latest 22.04 present some issues and bugs)
 Docker Installation: First, you need to update the apt package index and install a few packages. These packages will allow apt to use a repository over HTTPS:
 sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common Then, you need to add the GPG key of the official Docker repository to your system:</description>
     </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/archives/</guid>
-      <description>archives</description>
-    </item>
-    
     <item>
       <title>My Resume</title>
-      <link>/resume/</link>
+      <link>//localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resume/</guid>
+      <guid>//localhost:1313/resume/</guid>
       <description>Wassim Regaieg +33699930110 | Paris, France | wassim.regaieg@cloudwaves.co
-SummaryResults-driven Cloud DevOps Engineer, 2x AWS &amp; 1x Azure certified, with extensive experience in deploying and managing large-scale infrastructure. Currently leading a high-impact machine learning project, applying DevOps best practices, and managing AWS infrastructure for a multinational organization. Proven ability to collaborate with global teams, ensuring technical excellence and seamless communication.
+Summary Results-driven Cloud DevOps Engineer, 2x AWS &amp; 1x Azure certified, with extensive experience in deploying and managing large-scale infrastructure. Currently leading a high-impact machine learning project, applying DevOps best practices, and managing AWS infrastructure for a multinational organization. Proven ability to collaborate with global teams, ensuring technical excellence and seamless communication.
 Don&#39;t fear the cloud, surf its waves ...
-Professional ExperienceDevOps/AWS Engineer</description>
+Professional Experience DevOps/AWS Engineer</description>
     </item>
-    
   </channel>
 </rss>
