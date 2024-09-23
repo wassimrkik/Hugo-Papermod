@@ -10,7 +10,7 @@ layout: "resume"
 {{< rawhtml >}}
 <div class="resume-body">
   <h2>Summary</h2>
-  <p>2x AWS certified Cloud DevOps Engineer currently working on a big scale machine learning project enforcing DevOps best practices, provisioning and managing the AWS infrastructure for a multinational company. I have a proven record for working within international teams and particularly skilled in both technical and communication level.</p>
+  <p>2x AWS & 1x Azure certified Cloud DevOps Engineer currently working on a big scale machine learning project enforcing DevOps best practices, provisioning and managing the AWS infrastructure for a multinational company. I have a proven record for working within international teams and particularly skilled in both technical and communication level.</p>
   <p><em>Don't fear the cloud, embrace it ...</em></p>
   <h2>Professional Experiences</h2>
   <div class="job">
