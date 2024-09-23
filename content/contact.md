@@ -11,11 +11,11 @@ date: 2024-06-12
   <ul class="contact-list">
     <li>
       <i class="fa fa-phone"></i> 
-      <strong>Phone (Primary):</strong> <a href="tel:+33699930110">+33 6 99 93 01 10</a>
+      <strong>Phone (Primary):</strong> <a class="phone-link" href="tel:+33699930110">+33 6 99 93 01 10</a>
     </li>
     <li>
       <i class="fa fa-phone"></i> 
-      <strong>Phone (Secondary):</strong> <a href="tel:+971585172167">+971 58 517 21 67</a>
+      <strong>Phone (Secondary):</strong> <a class="phone-link" href="tel:+971585172167">+971 58 517 2167</a>
     </li>
     <li>
       <i class="fa fa-envelope"></i> 
@@ -23,7 +23,7 @@ date: 2024-06-12
     </li>
     <li>
       <i class="fa fa-linkedin"></i> 
-      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wassim-regaieg-837578177/" target="_blank">Wassim Regaieg</a>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wassimregaieg" target="_blank">Wassim Regaieg</a>
     </li>
   </ul>
   
@@ -44,10 +44,19 @@ date: 2024-06-12
     }
     .contact-list a {
       text-decoration: none;
-      color: #ffffff; /* Light text for dark mode */
+      color: #ffffff; /* Default text color for dark mode */
+      font-weight: bold; /* Make links bolder for visibility */
     }
     .contact-list a:hover {
       color: #0077b5; /* LinkedIn blue */
+    }
+
+    /* Phone link color */
+    .phone-link {
+      color: #ffcc00; /* Change this to your desired color */
+    }
+    .phone-link:hover {
+      color: #ffd700; /* Lighter shade on hover */
     }
 
     /* Dark mode specific */
