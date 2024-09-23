@@ -89,17 +89,6 @@ layout: "resume"
       Esprit, Tunis, Tunis<br>
       Graduated 06/2015
     </li>
-    <li>
-      <strong>Physics and Technology</strong><br>
-      Preparatory Institute for Engineering Studies - El-Manar (IPEIEM), Tunis, Tunis<br>
-      Graduated 06/2011<br>
-      Preparatory school for entry to engineering school
-    </li>
-    <li>
-      <strong>Bachelor's of Technology</strong><br>
-      9 Avril College, Tunis, Tunis<br>
-      Graduated 06/2008
-    </li>
   </ul>
   <h2>Languages</h2>
   <p>English, French, Arabic</p>
