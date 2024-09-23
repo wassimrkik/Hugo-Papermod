@@ -11,7 +11,11 @@ date: 2024-06-12
   <ul class="contact-list">
     <li>
       <i class="fa fa-phone"></i> 
-      <strong>Phone:</strong> <a href="tel:+33699930110">+33 6 99 93 01 10</a>
+      <strong>Phone (Primary):</strong> <a href="tel:+33699930110">+33 6 99 93 01 10</a>
+    </li>
+    <li>
+      <i class="fa fa-phone"></i> 
+      <strong>Phone (Secondary):</strong> <a href="tel:+971585172167">+971 58 517 21 67</a>
     </li>
     <li>
       <i class="fa fa-envelope"></i> 
@@ -36,15 +40,24 @@ date: 2024-06-12
     }
     .contact-list i {
       font-size: 24px;
-      color: #0077b5; /* LinkedIn blue */
       margin-right: 10px;
     }
     .contact-list a {
       text-decoration: none;
-      color: #333;
+      color: #ffffff; /* Light text for dark mode */
     }
     .contact-list a:hover {
-      color: #0077b5;
+      color: #0077b5; /* LinkedIn blue */
+    }
+
+    /* Dark mode specific */
+    body.dark-mode .contact-page, body.dark-mode .contact-list a {
+      color: #ffffff; /* Ensures visibility in dark mode */
+    }
+
+    /* Light mode */
+    body:not(.dark-mode) .contact-list a {
+      color: #333; /* Dark text for light mode */
     }
   </style>
 </div>
