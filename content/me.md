@@ -5,7 +5,6 @@ date: 2024-06-12
 
 {{< rawhtml >}}
 <div class="about-me-page">
-  <h2>About Wassim Regaieg</h2>
   <p>Hello! I'm Wassim, a Cloud DevOps Engineer with a passion for leveraging cloud technology to drive innovation and efficiency. Over the years, I’ve gained expertise in AWS and Azure, leading large-scale projects, and applying DevOps best practices to optimize cloud infrastructure. Currently, I’m managing a high-impact machine learning project for a multinational company, ensuring smooth operations and seamless deployments.</p>
   
   <p>I’ve had the privilege of working across diverse industries and within international teams, honing my technical and communication skills along the way. With certifications from both AWS and Azure, my focus has always been on delivering scalable, efficient solutions while staying ahead of the latest trends in cloud computing.</p>
