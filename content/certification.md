@@ -33,6 +33,9 @@ date: 2024-06-12
         <a href="https://www.credly.com/badges/d7800944-e535-4326-9dfc-e8beed98268a/public_url" class="certificate-link">
             <img src="/devassociateaws.png">
         </a>
+        <a href="https://learn.microsoft.com/en-us/users/wassimregaieg-2617/credentials/c21ca2b9177605bf" class="certificate-link">
+            <img src="/microsoft-certified-associate-badge.svg">
+        </a>
     </div>
     <div class="image-row">
         <a href="https://www.credly.com/badges/7b13f767-fb6b-4600-b12b-1bf23fe731dc/public_url" class="certificate-link2">
