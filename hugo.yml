@@ -58,8 +58,8 @@ menu:
       name: Archives
       url: /archives/
       weight: 40
-    - identifier: Tags
-      name: Tags
-      url: /tags/
+    - identifier: Contact
+      name: Contact
+      url: /contact/
       weight: 50
 
