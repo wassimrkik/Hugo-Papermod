@@ -1,5 +1,6 @@
 baseURL: ""
 languageCode: en-us
+googleAnalytics: G-QSRHKDRDSV
 title: Cloud Waves
 enableInlineShortcodes: true
 theme: 
