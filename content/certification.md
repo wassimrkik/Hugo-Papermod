@@ -34,7 +34,7 @@ date: 2024-06-12
             <img src="/devassociateaws.png">
         </a>
         <a href="https://learn.microsoft.com/en-us/users/wassimregaieg-2617/credentials/c21ca2b9177605bf" class="certificate-link">
-            <img src="/microsoft-certified-associate-badge.svg">
+            <img src="/microsoft-certified-associate-badge.png">
         </a>
     </div>
     <div class="image-row">
