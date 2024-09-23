@@ -23,7 +23,7 @@ date: 2024-06-12
     </li>
     <li>
       <i class="fa fa-linkedin"></i> 
-      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wassimregaieg" target="_blank">Wassim Regaieg</a>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/wassim-regaieg-837578177/" target="_blank">Wassim Regaieg</a>
     </li>
   </ul>
   
