@@ -5,8 +5,6 @@ layout: "resume"
 
 # Wassim Regaieg
 
-+33699930110 | Paris, France | wassim.regaieg@cloudwaves.co
-
 {{< rawhtml >}}
 <div class="resume-body">
   <h2>Summary</h2>
