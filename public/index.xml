@@ -55,14 +55,14 @@ Docker Installation: First, you need to update the apt package index and install
 sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common Then, you need to add the GPG key of the official Docker repository to your system:</description>
     </item>
     <item>
-      <title>My Resume</title>
+      <title></title>
       <link>//localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/resume/</guid>
-      <description>Wassim Regaieg +33699930110 | Paris, France | wassim.regaieg@cloudwaves.co
-Summary Results-driven Cloud DevOps Engineer, 2x AWS &amp; 1x Azure certified, with extensive experience in deploying and managing large-scale infrastructure. Currently leading a high-impact machine learning project, applying DevOps best practices, and managing AWS infrastructure for a multinational organization. Proven ability to collaborate with global teams, ensuring technical excellence and seamless communication.
+      <description>Wassim is a Results-driven Cloud DevOps Engineer, 2x AWS &amp; 1x Azure certified, with extensive experience in deploying and managing large-scale infrastructure. Currently leading a high-impact machine learning project, applying DevOps best practices, and managing AWS infrastructure for a multinational organization. Proven ability to collaborate with global teams, ensuring technical excellence and seamless communication.
 Don&#39;t fear the cloud, surf its waves ...
-Professional Experience DevOps/AWS Engineer</description>
+Professional Experience DevOps/AWS Engineer
+Sanofi, Paris, Île-de-France | Dec 2021 – Present</description>
     </item>
   </channel>
 </rss>

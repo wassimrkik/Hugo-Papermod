@@ -1,13 +1,12 @@
 ---
-title: "My Resume"
+title: ""
 layout: "resume"
 ---
 
-# Wassim Regaieg
-
 {{< rawhtml >}}
+ <h2><em><a href="/contact">Wassim</a> is a</em></h2>
+
 <div class="resume-body">
-  <h2>Summary</h2>
   <p>Results-driven Cloud DevOps Engineer, 2x AWS & 1x Azure certified, with extensive experience in deploying and managing large-scale infrastructure. Currently leading a high-impact machine learning project, applying DevOps best practices, and managing AWS infrastructure for a multinational organization. Proven ability to collaborate with global teams, ensuring technical excellence and seamless communication.</p>
   <p><em>Don't fear the cloud, surf its waves ...</em></p>
   
