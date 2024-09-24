@@ -42,11 +42,12 @@ In Grafana:
 - Go to **contact points** under **Alerting** then click on *Add contact point*.
 - Enter a name for your contact point.
 - Choose **AWS SNS** in Integration menu.
-- In The Amazon SNS API URL, enter this : https://sns.<SNS-TOPIC-REGION>.amazonaws.com
+- In The Amazon SNS API URL, enter this : https://sns.{SNS-TOPIC-REGION}.amazonaws.com
 - In the SNS Topic ARN, enter the ARN of the SNS topic that you created in step **1**.
 - Click **Save contact point**
 - You can test the integration by clicking on **Test** on the top right of the screen
+- You should receive an email/SMS on the email/number subscribed to the SNS topic.
 
-### 4. Test Your Alert
-To ensure everything is configured correctly, you can test the alert by setting a condition that will trigger the alert, such as lowering the threshold for a few minutes and verifying that the SNS notification is sent.
+### 4. Configure Your alert
+- 
 
