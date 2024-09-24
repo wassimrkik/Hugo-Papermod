@@ -36,24 +36,17 @@ In Grafana:
 ![Data Source](/datasource.png)
 - Enter the **Access Key ID**, **Secret Access Key**, and **AWS Region**.
 ![Data Source 2](/datasource2.png)
-- At the bottom of the page, click on Save & test, you should see a displayed message saying "1. Successfully queried the CloudWatch metrics API. 2. Successfully queried the CloudWatch logs API."
+- At the bottom of the page, click on Save & test, you should see a displayed message saying **1. Successfully queried the CloudWatch metrics API. 2. Successfully queried the CloudWatch logs API.**
 
-### 3. Create a Notification Channel in Grafana
-- In Grafana, go to **Alerting** → **Notification Channels**.
-- Click **Add Channel** and select **Amazon SNS**.
-- Fill in the following fields:
-    - **SNS Topic ARN**: The ARN of the SNS topic.
-    - **AWS Access Key** and **AWS Secret Key** from the IAM user.
-    - **AWS Region**: The region where your SNS topic is located.
-- Click **Save**.
+### 3. Configure Grafana Alert
+- Go to **contact points** under **Alerting** then click on *Add contact point*.
+- Enter a name for your contact point.
+- Choose **AWS SNS** in Integration menu.
+- In The Amazon SNS API URL, enter this : https://sns.<SNS-TOPIC-REGION>.amazonaws.com
+- In the SNS Topic ARN, enter the ARN of the SNS topic that you created in step **1**.
+- Click **Save contact point**
+- You can test the integration by clicking on **Test** on the top right of the screen
 
-### 4. Configure Grafana Alert
-- Open the Grafana **dashboard** or **panel** you want to add an alert to.
-- Go to the **Alert** tab and click **Create Alert**.
-- Set the conditions for the alert (e.g., when a metric crosses a threshold).
-- Under **Notifications**, select the **Notification Channel** you created earlier.
-- Save the dashboard.
-
-### 5. Test Your Alert
+### 4. Test Your Alert
 To ensure everything is configured correctly, you can test the alert by setting a condition that will trigger the alert, such as lowering the threshold for a few minutes and verifying that the SNS notification is sent.
 
