@@ -1,5 +1,5 @@
 ---
-title: "Grafana Alert with SNS"
+title: "Grafana Alert with CloudWatch & SNS"
 date: 2024-09-23
 ---
 
