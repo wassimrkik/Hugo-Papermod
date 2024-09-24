@@ -33,7 +33,7 @@ To configure **Grafana Alerts** with **Amazon SNS**, follow the steps below.
 In Grafana:
 - Go to **Configuration** → **Data Sources**.
 - Add a **CloudWatch** data source.
-![Data Source](images/datasource.png)
+![Data Source](/datasource.png)
 - Enter the **Access Key ID**, **Secret Access Key**, and **AWS Region**.
 
 ### 3. Create a Notification Channel in Grafana
