@@ -14,7 +14,20 @@ To configure **Grafana Alerts** with **Amazon SNS**, follow the steps below.
 - Confirm the subscription through the email/SMS sent by AWS.
 
 ### 2. Set Up AWS Credentials in Grafana
-- In the [AWS IAM Console](https://console.aws.amazon.com/iam/), create an IAM user with **AmazonSNSFullAccess** or a custom policy that grants **sns:Publish** permissions to your SNS topic.
+- In the [AWS IAM Console](https://console.aws.amazon.com/iam/), create an IAM user with a custom policy that grants **sns:Publish** permissions to your SNS topic.
+```sh
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "sns:Publish",
+            "Resource": "<SNS-TOPIC-ARN>"
+        }
+    ]
+}
+```
 - After creating the user, download the **Access Key ID** and **Secret Access Key**.
 
 In Grafana:
