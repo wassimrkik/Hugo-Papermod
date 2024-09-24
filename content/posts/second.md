@@ -35,6 +35,8 @@ In Grafana:
 - Add a **CloudWatch** data source.
 ![Data Source](/datasource.png)
 - Enter the **Access Key ID**, **Secret Access Key**, and **AWS Region**.
+![Data Source 2](/datasource2.png)
+- At the bottom of the page, click on Save & test, you should see a displayed message saying "1. Successfully queried the CloudWatch metrics API. 2. Successfully queried the CloudWatch logs API."
 
 ### 3. Create a Notification Channel in Grafana
 - In Grafana, go to **Alerting** → **Notification Channels**.
