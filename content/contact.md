@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: ""
 date: 2024-06-12
 ---
 
