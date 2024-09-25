@@ -1,7 +1,7 @@
 ---
 title: "Deploy mlflow on AWS ECS using Terraform"
 date: 2024-06-10T16:02:58+02:00
-draft: true
+draft: false
 ---
 # MLflow
 
