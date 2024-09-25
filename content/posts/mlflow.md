@@ -42,4 +42,4 @@ date: 2024-09-25
 - ECS supports deployment in multiple AWS regions and across multiple availability zones, ensuring that your MLflow services are highly available.
 - With load balancers and auto-scaling capabilities, ECS helps in managing failover and ensures uninterrupted access to your MLflow server.
 
-[Github](https://github.com/wassimrkik/mlflow-ecs)
+[Mlflow On ECS Github](https://github.com/wassimrkik/mlflow-ecs)
