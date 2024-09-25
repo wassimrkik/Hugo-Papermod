@@ -1,7 +1,6 @@
 ---
 title: "Kubernetes Installation On-Prem"
 date: 2024-06-10T16:02:58+02:00
-draft: false
 ---
 This has been tested on a virtual environment, will be tested later on the definitive environment.
 

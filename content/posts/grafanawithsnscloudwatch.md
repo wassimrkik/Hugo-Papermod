@@ -1,6 +1,6 @@
 ---
 title: "Grafana Alert with CloudWatch & SNS"
-date: 2024-09-23
+date: 2024-08-23
 ---
 
 To configure **Grafana Alerts** with **Amazon SNS**, follow the steps below.
