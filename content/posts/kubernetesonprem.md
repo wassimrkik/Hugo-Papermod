@@ -175,6 +175,11 @@ After that, we should have everything set up and working for our master node. Yo
 ```sh
 kubectl get pods --all-namespaces
 ```
+
+Retrieve the command to join the Cluster from the kubeadm init
+and run it on your worker node
+![Data Source3](/joinworker.png)
+
 Common errors:
 Run these commands to fix it:
 
