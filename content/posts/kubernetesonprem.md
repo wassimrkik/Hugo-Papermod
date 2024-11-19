@@ -152,6 +152,8 @@ At this step, you can get an error about container runtime not running. To fix i
 sudo rm /etc/containerd/config.toml
 sudo systemctl restart containerd
 ```
+You will get the command to use to join your worker nodes, keep it in a safe place
+![Data Source2](/join.png)
 After initializing the master node, you’ll need to run these commands to create the config file that was created in the previous step. It will contain the certificate for Kubernetes:
 
 ```sh
