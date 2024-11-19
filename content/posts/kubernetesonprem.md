@@ -101,6 +101,7 @@ This command disables swap memory until the system is rebooted. We have to ensur
 sudo nano /etc/fstab
 ```
 Inside the file, comment out the swapfile line as shown in the screenshot below:
+![Data Source](/fstab.png)
 
 If you do not see the swapfile line, just ignore it. Save and close the file when you are done editing. Follow the same process for both nodes. Now, swap memory settings will remain off, even after your server reboots.
 
@@ -149,7 +150,7 @@ At this step, you can get an error about container runtime not running. To fix i
 
 ```sh
 sudo rm /etc/containerd/config.toml
-sudo restart containerd
+sudo systemctl restart containerd
 ```
 After initializing the master node, you’ll need to run these commands to create the config file that was created in the previous step. It will contain the certificate for Kubernetes:
 
