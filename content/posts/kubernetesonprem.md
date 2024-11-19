@@ -17,7 +17,7 @@ This has been tested on a virtual environment, will be tested later on the defin
 
 First, you need to update the apt package index and install a few packages. These packages will allow apt to use a repository over HTTPS:
 ```sh
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -44,8 +44,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 Finally, you can install the Docker engine. The following commands first update the apt package index and then install the latest version of Docker engine and containerd:
 
 ```sh
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get update -y
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 Check Docker status using this command:
 
