@@ -77,9 +77,11 @@ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
 Next, we add the Kubernetes repository as a package source on both nodes using the following command:
 
 ```sh
-echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" >> ~/kubernetes.list
-sudo mv ~/kubernetes.list /etc/apt/sources.list.d
+echo "deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.28/deb/ /" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.28/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
 ```
+**Update**: In releases older than Debian 12 and Ubuntu 22.04, the folder /etc/apt/keyrings does not exist by default, and it should be created before the curl command.
+
 After that, update the nodes:
 
 ```sh
