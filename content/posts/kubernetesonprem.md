@@ -187,3 +187,10 @@ Run these commands to fix it:
 sudo rm /etc/containerd/config.toml
 sudo systemctl restart containerd
 ```
+**On Worker node**
+![Data Source4](/error-join.png)
+Run 
+```sh
+kubeadm reset
+```
+And delete all the files that are displayed as already existant 
