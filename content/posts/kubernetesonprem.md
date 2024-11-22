@@ -201,7 +201,7 @@ You can have this error when trying to use crictl to debug pods
 
 This is because the default configuration is deprecated and needs to be updated if you installed containerd runtime using the docker installation
 Run these 2 commands to set the runtime-endpoint & image-endpoint for the correct containerd runtime
-Source: [text](https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/)
+Source: [https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/](https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/)
 ```sh
 sudo crictl config --set runtime-endpoint=unix:///var/run/containerd/containerd.sock
 sudo crictl config --set image-endpoint=unix:///var/run/containerd/containerd.sock
