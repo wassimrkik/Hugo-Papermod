@@ -21,7 +21,7 @@ layout: "resume"
       <li>Containerized applications for Machine Learning and WebApp deployments.</li>
       <li>Developed automation scripts using Python and Shell for deployment processes.</li>
       <li>Integrated Snowflake Data Warehouse to streamline data processes for Data Science and Engineering teams.</li>
-      <li>Deployed API endpoints using Python (FastAPI) for web application requirements.</li>
+      <li>Designed and implemented robust API endpoints using Python's FastAPI to support framework dynamic web application requirements.</li>
       <li>Led a Kubernetes Cluster deployment as a Proof of Concept (PoC).</li>
     </ul>
   </div>
