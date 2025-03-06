@@ -16,13 +16,14 @@ layout: "resume"
     <p class="job-title"><strong>DevOps/AWS Engineer</strong></p>
     <p class="job-details">Sanofi, Paris, Île-de-France | <em>Dec 2021 – Present</em></p>
     <ul>
-      <li>Provisioned and maintained AWS infrastructure using Infrastructure as Code (IaC) via Terraform.</li>
-      <li>Managed and automated CI/CD pipelines using GitLab CI and GitHub Actions.</li>
-      <li>Containerized applications for Machine Learning and WebApp deployments.</li>
-      <li>Developed automation scripts using Python and Shell for deployment processes.</li>
-      <li>Integrated Snowflake Data Warehouse to streamline data processes for Data Science and Engineering teams.</li>
-      <li>Designed and implemented robust API endpoints using Python's FastAPI to support framework dynamic web application requirements.</li>
-      <li>Led a Kubernetes Cluster deployment as a Proof of Concept (PoC).</li>
+      <li>Deployed and Maintained AWS infrastructure using IaC Terraform.</li>
+      <li>Migration of Microservices project from ECS to EKS</li>
+      <li>Managed project CI/CD pipeline on Gitlab CI / GitHub Actions</li>
+      <li>Containerized applications for ML/WebApp</li>
+      <li>Deployment automations using python/shell scripts</li>
+      <li>Developed Backend API using Python Language</li>
+      <li>Integrated Snowflake DB Data warehouse for Data science/Data engineers</li>
+      <li>Snowflake Data lifecycle management and troubleshooting (SQL, Access control)</li>
     </ul>
   </div>
 
@@ -30,12 +31,12 @@ layout: "resume"
     <p class="job-title"><strong>DevOps/AWS Engineer</strong></p>
     <p class="job-details">La Sacem, Paris, Île-de-France | <em>Mar 2021 – Dec 2021</em></p>
     <ul>
-      <li>Extensively worked with Terraform to deploy and manage cloud infrastructure.</li>
-      <li>Developed and maintained CI/CD pipelines with GitLab-CI, enhancing development workflows.</li>
-      <li>Utilized AWS services such as EC2, S3, VPC, RDS, Lambda, API Gateway, CloudFront, SES, and Route 53.</li>
-      <li>Implemented Python and Bash scripts for automation tasks.</li>
-      <li>Resolved OS and network-based issues, ensuring optimal performance.</li>
-      <li>Configured Docker runners and Dockerfiles for CI pipeline execution.</li>
+      <li>Streamlined infrastructure deployment using cloud provisioning tool, Terraform</li>
+      <li>Experienced in the creation and maintenance of CI scripts as part of CI/CD pipelines, based on GitLab-CI</li>
+      <li>Extensively worked on creating and maintaining AWS services, such as EC2, S3, VPC, RDS, Lambda, API GW, CloudFront, SES, and Route53</li>
+      <li>Hands-on experience in writing Python and Bash scripts</li>
+      <li>Experienced in troubleshooting and resolving OS and network-based issues</li>
+      <li>Containerized applications and runners configuration using Docker</li>
     </ul>
   </div>
 
@@ -43,12 +44,12 @@ layout: "resume"
     <p class="job-title"><strong>DevOps/AWS Engineer</strong></p>
     <p class="job-details">Believe Digital, Paris, Île-de-France | <em>Sep 2019 – Mar 2021</em></p>
     <ul>
-      <li>Deployed EMR clusters for large-scale data processing in the music streaming industry.</li>
-      <li>Designed and scaled web application architecture based on client specifications.</li>
-      <li>Installed and configured LAMP stack infrastructure with AWS services, Autoscaling, EC2, ELB, and Route 53.</li>
-      <li>Migrated databases from virtual private servers to AWS RDS, ensuring high availability and optimized performance.</li>
-      <li>Provided networking administration (VPC, NACL, SG) and troubleshooting support.</li>
-      <li>Implemented serverless microservices using AWS Lambda and Python.</li>
+      <li>Deployed EMR clusters for data processing of music streaming services</li>
+      <li>Scaled and deployed following client specifications a web application architecture</li>
+      <li>Installed a Fullstack infrastructure (LAMP) using AWS services, Autoscaling groups for EC2 instances, ELB for load balancing, route53 for DNS entries</li>
+      <li>Migrated Databases from virtual privates servers into RDS and assured the High availability and performance for peak usage (R/W)</li>
+      <li>Networking administration and Troubleshooting (VPC, NACL, SG)</li>
+      <li>Serverless microservices implementation (Lambda, API Gateway,Python).</li>
     </ul>
   </div>
 
