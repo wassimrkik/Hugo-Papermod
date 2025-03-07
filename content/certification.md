@@ -33,6 +33,9 @@ date: 2024-06-12
         <a href="https://www.credly.com/badges/1408a5a2-489c-4440-b23e-61781f1750c3/public_url" class="certificate-link">
             <img src="/ckad-certified-kubernetes-application-developer.png">
         </a>
+        <a href="https://www.credly.com/badges/2350aa2f-47f1-4e4e-828c-3b60f5c1848b/public_url" class="certificate-link">
+            <img src="/cks-certified-kubernetes-security-specialist.png">
+        </a>
         <a href="https://www.credly.com/badges/d16518fb-a2a4-4a65-9ca7-a42ffdd57613/public_url" class="certificate-link">
             <img src="/architectassociateaws.png">
         </a>
