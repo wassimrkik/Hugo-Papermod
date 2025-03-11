@@ -35,15 +35,29 @@ date: 2024-06-12
         </a>
         <a href="https://www.credly.com/badges/2350aa2f-47f1-4e4e-828c-3b60f5c1848b/public_url" class="certificate-link">
             <img src="/cks-certified-kubernetes-security-specialist.png">
+        </a>        
+        <a href="https://www.credly.com/badges/e94637cc-4eb4-4b1e-8319-b561881326f8/public_url" class="certificate-link">
+            <img src="/kcsa-kubernetes-and-cloud-native-security-associate.png">
         </a>
-        <a href="https://www.credly.com/badges/d16518fb-a2a4-4a65-9ca7-a42ffdd57613/public_url" class="certificate-link">
+        <a href="https://www.credly.com/badges/c9b29669-de6d-4536-8480-dd19355bd9bf/public_url" class="certificate-link">
+            <img src="/kcna-kubernetes-and-cloud-native-associate.png">
+        </a>
+        <a href="https://www.credly.com/badges/cda553d0-6caf-4ece-8a1d-fc5ab8b55914/public_url" class="certificate-link">
+            <img src="/kubestronaut.png">
+        </a>
+    </div>
+    <div class="image-row">
+       <a href="https://www.credly.com/badges/d16518fb-a2a4-4a65-9ca7-a42ffdd57613/public_url" class="certificate-link">
             <img src="/architectassociateaws.png">
         </a>
         <a href="https://www.credly.com/badges/d7800944-e535-4326-9dfc-e8beed98268a/public_url" class="certificate-link">
             <img src="/devassociateaws.png">
         </a>
+    </div>
+    <div class="image-row">
         <a href="https://learn.microsoft.com/en-us/users/wassimregaieg-2617/credentials/c21ca2b9177605bf" class="certificate-link">
             <img src="/microsoft-certified-associate-badge.png">
+        </a>
         </a>
     </div>
     <div class="image-row">
