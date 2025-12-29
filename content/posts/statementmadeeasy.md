@@ -1,6 +1,6 @@
 ---
 title: "StatementMadeEasy: Your Personal Finance Assistant"
-date: 2024-12-19
+date: 2025-12-29
 ---
 
 Tired of manually going through your credit card statements every month? Spending hours trying to figure out where your money went? **StatementMadeEasy** is here to change that.
